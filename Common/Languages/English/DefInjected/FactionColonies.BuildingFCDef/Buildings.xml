@@ -131,13 +131,15 @@
 <archotechGenerator.label>Archotech Generator</archotechGenerator.label>
 <archotechGenerator.desc>An arcane generator that even the maintainers can't hope to understand, but have acquired. +100% power production. $1000 upkeep cost.</archotechGenerator.desc>
 
-<!-- Neolithic Buildings -->
-<barracks.label>Barracks</barracks.label>
-<tradingPost.label>Trading Post</tradingPost.label>
-<migrantHousing.label>Migrant Housing</migrantHousing.label>
-<quarry.label>Quarry</quarry.label>
-<trainingYard.label>Training Yard</trainingYard.label>
-<deforestationCamp.label>Deforestation Camp</deforestationCamp.label>
-<herbalMedicineFarm.label>Herbal Medicine Farm</herbalMedicineFarm.label>
+<!-- Pecha Buildings (change to version number when it's known) -->
+  <soilFixer.label>Soil Reclamation Bureau<soilFixer.label>
+  <soilFixer.desc>Restores fertility to the damaged and depleted soil of Scarlands +50% food production, $200 upkeep cost<soilFixer.desc>
+
+  <lavaPlant.label>Geothermal Power Plant<lavaPlant.label>
+  <lavaPlant.desc>Harness the easily accessible geothermal energy of volcanically active areas for power generation, $100 upkeep cost<lavaPlant.desc>
+
+  <lavaLab.label>Volcanology Lab<lavaLab.label>
+  <lavaLab.desc>A research facility dedicated to studying volcanology and any potential practical applications, $100 upkeep cost<lavaLab.desc>
+
 
 </LanguageData>
