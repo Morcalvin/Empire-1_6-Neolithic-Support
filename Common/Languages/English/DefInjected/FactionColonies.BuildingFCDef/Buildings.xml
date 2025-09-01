@@ -131,13 +131,62 @@
 <archotechGenerator.label>Archotech Generator</archotechGenerator.label>
 <archotechGenerator.desc>An arcane generator that even the maintainers can't hope to understand, but have acquired. +100% power production. $1000 upkeep cost.</archotechGenerator.desc>
 
-<!-- Neolithic Buildings -->
-<barracks.label>Barracks</barracks.label>
-<tradingPost.label>Trading Post</tradingPost.label>
-<migrantHousing.label>Migrant Housing</migrantHousing.label>
-<quarry.label>Quarry</quarry.label>
-<trainingYard.label>Training Yard</trainingYard.label>
-<deforestationCamp.label>Deforestation Camp</deforestationCamp.label>
-<herbalMedicineFarm.label>Herbal Medicine Farm</herbalMedicineFarm.label>
+<!-- 0.43.6 Update  -->
+  <soilFixer.label>Soil Reclamation Bureau<soilFixer.label>
+  <soilFixer.desc>Restores fertility to the damaged and depleted soil of Scarlands +50% food production, $200 upkeep cost<soilFixer.desc>
+
+  <lavaPlant.label>Geothermal Power Plant<lavaPlant.label>
+  <lavaPlant.desc>Harness the easily accessible geothermal energy of volcanically active areas for power generation, $100 upkeep cost<lavaPlant.desc>
+
+  <lavaLab.label>Volcanology Lab<lavaLab.label>
+  <lavaLab.desc>A research facility dedicated to studying volcanology and any potential practical applications, $100 upkeep cost<lavaLab.desc>
+
+  <!-- Neolithic Buildings -->
+  <cerealFarmland.label>Cereal Farmland</cerealFarmland.label>
+  <cerealFarmland.desc>Land for growing cereal crops to feed more than a single village. +0.2 base food, -2 max worker<cerealFarmland.desc>
+    
+  <grainMill.label>Grain Mill</grainMill.label>
+  <grainMill.desc>A mill to process cereal crops with big, grindy rocks. +15% food production, $25 upkeep cost<grainMill.desc>
+    
+  <granary.label>Granary</granary.label>
+  <granary.desc>A safe place to store cereal crops from those pesky rats. +10% food production, $75 upkeep cost<granary.desc>
+    
+  <fletcher.label>Fletcher</fletcher.label>
+  <fletcher.desc>A creator of arrows - the best ammuniotion in the neolithic! +15% weapons production, -15% animal production<fletcher.desc>
+    
+  <stoneMason.label>Stone Mason</stoneMason.label>
+  <stoneMason.desc>An artisan of stone by day - rules the world by night. +20% mining, $100 upkeep cost<stoneMason.desc>
+    
+  <furrier.label>Furrier</furrier.label>
+  <furrier.desc>Makes goods from furs and pelts. Ignore the funky smell. +15% apparel production, -15% animal production<furrier.desc>
+  
+  <huntersHut.label>Hunter's Hut</huntersHut.label>
+  <huntersHut.desc>Hunts the surrounding woods for food. Endangered species are delicious! -25% animal production, +15% food production, $50 upkeep cost<huntersHut.desc>
+  
+  <brewer.label>Brewer</brewer.label>
+  <brewer.desc>Brews the finest ethanols and ethanol biproducts. Please drink responsibly. +0.4 happiness, -5% food production, $150 upkeep cost<brewer.desc>
+  
+  <carpenter.label>Carpenter</carpenter.label>
+  <carpenter.desc>Makes wonderful furniture to prevent the most heinous of war crimes. +0.1 happiness, -20% logging production<carpenter.desc>
+  
+  <apothecary.label>Apothecary</apothecary.label>
+  <apothecary.desc>Makes elixirs to cure all ailments! (Results may vary.) +0.2 happiness, +15% medicine production, $50 upkeep cost<apothecary.desc>
+  
+  <alchemist.label>Alchemist</alchemist.label>
+  <alchemist.desc>Turn steel into gold? We'll find a way! +10% research production, -15% mining production<alchemist.desc>
+  
+  <ancientAcademy.label>Ancient Academy</ancientAcademy.label>
+  <ancientAcademy.desc>Unlocks secrets of the universe which may or may not be true but not both! +0.2 base research, +2 worker cost, $200 upkeep cost<ancientAcademy.desc>
+
+  <slaveMarket.label>Slave Market</slaveMarket.label>
+  <slaveMarket.desc>Need some free labour? +3 max worker, +3 overmax worker, -0.4 happiness<slaveMarket.desc>
+  
+  <baliff.label>Baliff</baliff.label>
+  <baliff.desc><baliff.desc>
+
+  <militia.label>Militia</militia.label>
+  <militia.desc><militia.desc>
+
+
 
 </LanguageData>
