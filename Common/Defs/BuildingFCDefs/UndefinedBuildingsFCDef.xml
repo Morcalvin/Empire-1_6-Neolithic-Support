@@ -290,5 +290,28 @@
 		<productionBaseFood>0.2</productionBaseFood>
 		<productionBaseMedicine>0.2</productionBaseMedicine>
 	</FactionColonies.FCTraitEffectDef>
-
+	
+	<FactionColonies.BuildingFCDef>
+		<defName>salvageGuild</defName> <!--Name of Def -->
+		<label>Salvage Guild</label> <!--Lable of Def -->
+		<desc>A guild of trained salage crews that searches the ruins of destroyed and abandoned settlements, recovering weapons and apparel while also potentially recovering research notes.</desc> <!-- Description of trait -->
+		<cost>500</cost>
+		<techLevel>Undefined</techLevel>
+		<constructionDuration>40000</constructionDuration> <!-- Ticks it takes until construction is finished -->
+		<traits> <!-- Put the traits they provide here -->
+			<li>salvageGuild</li>
+		</traits>
+		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
+		</applicableBiomes>
+		<upkeep></upkeep> <!-- cost per week for the building -->
+		<iconPath>GUI/Buildings/salvageGuild</iconPath>
+	</FactionColonies.BuildingFCDef>
+	<FactionColonies.FCTraitEffectDef>
+		<defName>salvageGuild</defName> <!--Name of Def -->
+		<label>Salvage Guild</label> <!--Lable of Def -->
+		<desc></desc>
+		<productionMultiplierWeapons>1.10</productionMultiplierWeapons>
+		<productionMultiplierApparel>1.10</productionMultiplierApparel>
+		<productionMultiplierResearch>1.10</productionMultiplierResearch>
+	</FactionColonies.FCTraitEffectDef>
 </Defs>
