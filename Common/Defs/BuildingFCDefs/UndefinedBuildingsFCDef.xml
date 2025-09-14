@@ -275,6 +275,7 @@
 		<traits> <!-- Put the traits they provide here -->
 			<li>mushfarmer</li>
 		</traits>
+		<settlementTypeRestriction>SurfaceOnly</settlementTypeRestriction>
 		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
 		<li>Glowforest</li>
 		<li>AB_MycoticJungle</li>
@@ -301,6 +302,7 @@
 		<traits> <!-- Put the traits they provide here -->
 			<li>salvageGuild</li>
 		</traits>
+		<settlementTypeRestriction>SurfaceOnly</settlementTypeRestriction>
 		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
 		</applicableBiomes>
 		<upkeep></upkeep> <!-- cost per week for the building -->
