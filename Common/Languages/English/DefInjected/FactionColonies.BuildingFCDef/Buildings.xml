@@ -28,6 +28,12 @@
 <trainingYard.label>Training Yard</trainingYard.label>
 <trainingYard.desc>A place for your soldiers to train. +15% combat efficiency.</trainingYard.desc>
 
+<!-- New Buildings by Pecha -->
+<feraliskhunter.label>Feralisk Hunting Lodge</feraliskhunter.label>
+<feraliskhunter.desc>A lodge dedicated to producing highly trained hunter teams specialising in hunting deadly feralisks. -3 max worker, +0.4 Happiness, +1 Military Level +20% combat efficiency</feraliskhunter.desc>
+
+<mushfarmer.label>Fungal Farmlands</mushfarmer.label>
+<mushfarmer.desc>Farmlands adapted to the local ecosystem by growing fungi for food and medicine. +0.2 Food and Medicine, -3 Max workers</mushfarmer.desc>
 
 <!-- Medieval Buildings -->
 
