@@ -35,6 +35,9 @@
 <mushfarmer.label>Fungal Farmlands</mushfarmer.label>
 <mushfarmer.desc>Farmlands adapted to the local ecosystem by growing fungi for food and medicine. +0.2 Food and Medicine, -3 Max workers</mushfarmer.desc>
 
+<ocularLab.label>Exotic Reality Research Facility</ocularLab.label>
+<ocularLab.desc>A research facility dedicated to studying the extradimensional properties of ocular forests, $100 upkeep cost</ocularLab.desc>
+
 <!-- Medieval Buildings -->
 
 <slavePlantation.label>Slave Plantation</slavePlantation.label>
