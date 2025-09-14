@@ -41,6 +41,9 @@
 <mechLab.label>Techno-organic Research Facility</mechLab.label>
 <mechLab.desc>A research facility dedicated to studying the partly assimilated flora and terrain of mechanoid intrusions, potentially leading to advancements in many fields. $200 upkeep cost</mechLab.desc>
 
+<salvageGuild.label>Salvage Guild</salvageGuild.label>
+<salvageGuild.desc>A guild of trained salage crews that searches the ruins of destroyed and abandoned settlements, recovering weapons and apparel while also potentially recovering research notes.</salvageGuild.desc>
+
 <!-- Medieval Buildings -->
 
 <slavePlantation.label>Slave Plantation</slavePlantation.label>
