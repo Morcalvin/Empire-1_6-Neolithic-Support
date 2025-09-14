@@ -299,6 +299,28 @@
 		<desc></desc>
 		<productionMultiplierResearch>1.75</productionMultiplierResearch>
 	</FactionColonies.FCTraitEffectDef>
-	
+
+	<FactionColonies.BuildingFCDef>
+		<defName>ocularLab</defName> <!--Name of Def -->
+		<label>Exotic Reality Research Facility</label> <!--Lable of Def -->
+		<desc>A research facility dedicated to studying the extradimensional properties of ocular forests, $100 upkeep cost</desc> <!-- Description of trait -->
+		<cost>1000</cost>
+		<techLevel>Industrial</techLevel>
+		<constructionDuration>30000</constructionDuration> <!-- Ticks it takes until construction is finished -->
+		<traits> <!-- Put the traits they provide here -->
+			<li>ocularLab</li>
+		</traits>
+		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
+			<li>AB_OcularForest</li>
+		</applicableBiomes>
+		<upkeep>100</upkeep> <!-- cost per week for the building -->
+		<iconPath>GUI/Buildings/ocularLab</iconPath>
+	</FactionColonies.BuildingFCDef>
+	<FactionColonies.FCTraitEffectDef>
+		<defName>ocularLab</defName> <!--Name of Def -->
+		<label>Exotic Reality Research Facility</label> <!--Lable of Def -->
+		<desc></desc>
+		<productionMultiplierResearch>1.75</productionMultiplierResearch>
+	</FactionColonies.FCTraitEffectDef>
 	
 </Defs>
