@@ -303,7 +303,7 @@
 	<FactionColonies.BuildingFCDef>
 		<defName>ocularLab</defName> <!--Name of Def -->
 		<label>Exotic Reality Research Facility</label> <!--Lable of Def -->
-		<desc>A research facility dedicated to studying the extradimensional properties of ocular forests, $100 upkeep cost</desc> <!-- Description of trait -->
+		<desc>A research facility dedicated to studying the extradimensional properties of ocular forests, sometimes resulting in medical advances. $100 upkeep cost</desc> <!-- Description of trait -->
 		<cost>1000</cost>
 		<techLevel>Industrial</techLevel>
 		<constructionDuration>30000</constructionDuration> <!-- Ticks it takes until construction is finished -->
@@ -320,7 +320,8 @@
 		<defName>ocularLab</defName> <!--Name of Def -->
 		<label>Exotic Reality Research Facility</label> <!--Lable of Def -->
 		<desc></desc>
-		<productionMultiplierResearch>1.75</productionMultiplierResearch>
+		<productionMultiplierResearch>1.5</productionMultiplierResearch>
+		<productionBaseMedicine>0.2</productionBaseMedicine>
 	</FactionColonies.FCTraitEffectDef>
 	
 </Defs>
