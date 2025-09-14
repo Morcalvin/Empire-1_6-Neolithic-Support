@@ -237,5 +237,58 @@
 		<iconPath>GUI/Buildings/HamsterWheel</iconPath>
 	</FactionColonies.BuildingFCDef>
 
-	
+	<!-- Pecha new buildings-->
+
+	<FactionColonies.BuildingFCDef>
+		<defName>feraliskhunter</defName> <!--Name of Def -->
+		<label>Feralisk Hunting Lodge</label> <!--Lable of Def -->
+		<desc>A lodge dedicated to producing highly trained hunter teams specialising in hunting deadly feralisks. -3 max worker, +0.4 Happiness, +1 Military Level +20% combat efficiency, 200 silver upkeep</desc> <!-- Description of trait -->
+		<cost>600</cost>
+		<techLevel>Undefined</techLevel>
+		<constructionDuration>50000</constructionDuration> <!-- Ticks it takes until construction is finished -->
+		<traits> <!-- Put the traits they provide here -->
+			<li>feraliskhunter</li>
+		</traits>
+		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
+		<li>AB_FeraliskInfestedJungle</li>
+		</applicableBiomes>
+		<upkeep>200</upkeep> <!-- cost per week for the building -->
+		<iconPath>GUI/Buildings/feraliskhunter</iconPath>
+	</FactionColonies.BuildingFCDef>
+	<FactionColonies.FCTraitEffectDef>
+		<defName>feraliskhunter</defName> <!--Name of Def -->
+		<label>Feralisk Hunting Lodge</label> <!--Lable of Def -->
+		<desc></desc>
+		<workerBaseMax>-3</workerBaseMax>
+		<militaryBaseLevel>1</militaryBaseLevel>
+		<militaryMultiplierCombatEfficiency>1.2</militaryMultiplierCombatEfficiency>
+		<happinessGainedBase>0.4</happinessGainedBase>
+	</FactionColonies.FCTraitEffectDef>
+
+<FactionColonies.BuildingFCDef>
+		<defName>mushfarmer</defName> <!--Name of Def -->
+		<label>Fungal Farms</label> <!--Lable of Def -->
+		<desc>Farmlands adapted to the local ecosystem by growing fungi for food and medicine. +0.2 Food and Medicine, -3 Max workers</desc> <!-- Description of trait -->
+		<cost>500</cost>
+		<techLevel>Undefined</techLevel>
+		<constructionDuration>35000</constructionDuration> <!-- Ticks it takes until construction is finished -->
+		<traits> <!-- Put the traits they provide here -->
+			<li>mushfarmer</li>
+		</traits>
+		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
+		<li>Glowforest</li>
+		<li>AB_MycoticJungle</li>
+		</applicableBiomes>
+		<upkeep></upkeep> <!-- cost per week for the building -->
+		<iconPath>GUI/Buildings/mushfarmer</iconPath>
+	</FactionColonies.BuildingFCDef>
+	<FactionColonies.FCTraitEffectDef>
+		<defName>mushfarmer</defName> <!--Name of Def -->
+		<label>Fungal Farms</label> <!--Lable of Def -->
+		<desc></desc>
+		<workerBaseMax>-3</workerBaseMax>
+		<productionBaseFood>0.2</productionBaseFood>
+		<productionBaseMedicine>0.2</productionBaseMedicine>
+	</FactionColonies.FCTraitEffectDef>
+
 </Defs>
