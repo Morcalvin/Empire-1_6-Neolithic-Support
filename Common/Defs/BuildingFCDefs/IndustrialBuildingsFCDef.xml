@@ -323,5 +323,32 @@
 		<productionMultiplierResearch>1.5</productionMultiplierResearch>
 		<productionBaseMedicine>0.2</productionBaseMedicine>
 	</FactionColonies.FCTraitEffectDef>
+
+	<FactionColonies.BuildingFCDef>
+		<defName>mechLab</defName> <!--Name of Def -->
+		<label>Techno-organic Research Facility</label> <!--Lable of Def -->
+		<desc>A research facility dedicated to studying the partly assimilated flora and terrain of mechanoid intrusions, potentially leading to advancements in many fields. $200 upkeep cost</desc> <!-- Description of trait -->
+		<cost>1000</cost>
+		<techLevel>Industrial</techLevel>
+		<constructionDuration>30000</constructionDuration> <!-- Ticks it takes until construction is finished -->
+		<traits> <!-- Put the traits they provide here -->
+			<li>mechLab</li>
+		</traits>
+		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
+			<li>AB_MechanoidIntrusion</li>
+		</applicableBiomes>
+		<upkeep>200</upkeep> <!-- cost per week for the building -->
+		<iconPath>GUI/Buildings/mechLab</iconPath>
+	</FactionColonies.BuildingFCDef>
+	<FactionColonies.FCTraitEffectDef>
+		<defName>mechLab</defName> <!--Name of Def -->
+		<label>Techno-organic Research Facility</label> <!--Lable of Def -->
+		<desc></desc>
+		<productionMultiplierResearch>1.5</productionMultiplierResearch>
+		<productionBaseMedicine>0.2</productionBaseMedicine>
+		<productionBasePower>0.2</productionBasePower>
+		<productionBaseLogging>0.2</productionBaseLogging>
+		<productionBaseFood>0.2</productionBaseFood>
+	</FactionColonies.FCTraitEffectDef>
 	
 </Defs>
