@@ -310,6 +310,7 @@
 		<traits> <!-- Put the traits they provide here -->
 			<li>ocularLab</li>
 		</traits>
+		<settlementTypeRestriction>SurfaceOnly</settlementTypeRestriction>
 		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
 			<li>AB_OcularForest</li>
 		</applicableBiomes>
@@ -334,6 +335,7 @@
 		<traits> <!-- Put the traits they provide here -->
 			<li>mechLab</li>
 		</traits>
+		<settlementTypeRestriction>SurfaceOnly</settlementTypeRestriction>
 		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
 			<li>AB_MechanoidIntrusion</li>
 		</applicableBiomes>
