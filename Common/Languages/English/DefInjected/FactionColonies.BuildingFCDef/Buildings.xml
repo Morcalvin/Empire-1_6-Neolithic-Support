@@ -38,6 +38,9 @@
 <ocularLab.label>Exotic Reality Research Facility</ocularLab.label>
 <ocularLab.desc>A research facility dedicated to studying the extradimensional properties of ocular forests, sometimes resulting in medical advances. $100 upkeep cost</ocularLab.desc>
 
+<mechLab.label>Exotic Reality Research Facility</mechLab.label>
+<mechLab.desc>A research facility dedicated to studying the partly assimilated flora and terrain of mechanoid intrusions, potentially leading to advancements in many fields. $200 upkeep cost</mechLab.desc>
+
 <!-- Medieval Buildings -->
 
 <slavePlantation.label>Slave Plantation</slavePlantation.label>
