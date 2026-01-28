@@ -446,4 +446,802 @@
 			<li>1</li> <!-- Chemfuel - Orbital only -->
 		</BaseProductionMultiplicative>
 	</FactionColonies.BiomeResourceDef>
+
+		<!--Odyssey Biomes -->
+	<FactionColonies.BiomeResourceDef>
+		<defName>GlacialPlain</defName>
+		<label>glacial plain</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.25</li> <!-- Food -->
+			<li>0.5</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>0.5</li> <!-- Animals -->
+			<li>0.25</li> <!-- Logging -->
+			<li>0.75</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>0.75</li> <!-- Power -->
+			<li>.5</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>Glowforest</defName>
+		<label>glowforest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.75</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>0.5</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>0</li> <!-- Power -->
+			<li>1.5</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>Grasslands</defName>
+		<label>grassland</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>0.25</li> <!-- Logging -->
+			<li>0.75</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>LavaField</defName>
+		<label>lava field</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>0.5</li> <!-- Weapons -->
+			<li>0.5</li> <!-- Apparel -->
+			<li>0.5</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1.5</li> <!-- Mining -->
+			<li>1.75</li> <!-- Research -->
+			<li>2</li> <!-- Power -->
+			<li>1.5</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>Scarlands</defName>
+		<label>scarlands</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.5</li> <!-- Food -->
+			<li>1.5</li> <!-- Weapons -->
+			<li>1.5</li> <!-- Apparel -->
+			<li>0.2</li> <!-- Animals -->
+			<li>0.2</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>0.5</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+	<!-- End Odyssey Biomes-->
+	
+	<!--Alpha Biomes-->
+	<FactionColonies.BiomeResourceDef>				
+		<defName>AB_FeraliskInfestedJungle</defName>
+		<label>Feralisk Infested Jungle</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>1.5</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>.75</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>.5</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>0.75</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_MycoticJungle</defName>
+		<label>Mycotic Jungle</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.75</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>0.5</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1.5</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>.5</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>0.75</li> <!-- Power -->
+			<li>1.25</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_OcularForest</defName>
+		<label>Ocular Forest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.25</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>0.5</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>.25</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_GelatinousSuperorganism</defName>
+		<label>Gelatinous Superorganism</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>0.5</li> <!-- Weapons -->
+			<li>0.5</li> <!-- Apparel -->
+			<li>1.25</li> <!-- Animals -->
+			<li>0</li> <!-- Logging -->
+			<li>0</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1.25</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_GallatrossGraveyard</defName>
+		<label>Gallatross Graveyard</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>.75</li> <!-- Animals -->
+			<li>.5</li> <!-- Logging -->
+			<li>1.25</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_MechanoidIntrusion</defName>
+		<label>Mechanoid Intrusion</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0</li> <!-- Food -->
+			<li>.5</li> <!-- Weapons -->
+			<li>.25</li> <!-- Apparel -->
+			<li>0</li> <!-- Animals -->
+			<li>0</li> <!-- Logging -->
+			<li>2</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1.25</li> <!-- Power -->
+			<li>0</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_PropaneLakes</defName>
+		<label>Propane Lakes</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0</li> <!-- Food -->
+			<li>.5</li> <!-- Weapons -->
+			<li>.5</li> <!-- Apparel -->
+			<li>.1</li> <!-- Animals -->
+			<li>0</li> <!-- Logging -->
+			<li>0</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_TarPits</defName>
+		<label>Tar Pits</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>.75</li> <!-- Animals -->
+			<li>.5</li> <!-- Logging -->
+			<li>1.25</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_RockyCrags</defName>
+		<label>Forsaken Crags</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>.75</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>.75</li> <!-- Animals -->
+			<li>.25</li> <!-- Logging -->
+			<li>1.25</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>0</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_IdyllicMeadows</defName>
+		<label>idyllic meadows</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>2</li> <!-- Food -->
+			<li>0.75</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>2</li> <!-- Animals -->
+			<li>2</li> <!-- Logging -->
+			<li>1.25</li> <!-- Mining -->
+			<li>1.25</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1.25</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_MiasmicMangrove</defName>
+		<label>miasmic mangrove</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1</li> <!-- Food -->
+			<li>0.75</li> <!-- Weapons -->
+			<li>0.5</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>0.5</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>0.5</li> <!-- Power -->
+			<li>1.5</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+						
+	<FactionColonies.BiomeResourceDef>
+		<defName>AB_PyroclasticConflagration</defName>
+		<label>pyroclastic conflagration</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.2</li> <!-- Food -->
+			<li>0.75</li> <!-- Weapons -->
+			<li>0.2</li> <!-- Apparel -->
+			<li>0.5</li> <!-- Animals -->
+			<li>0.2</li> <!-- Logging -->
+			<li>1.25</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>2</li> <!-- Power -->
+			<li>0.2</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>
+		<!--End Alpha Biomes-->
+		
+		<!--Medieval Overhaul Biomes-->		
+	<FactionColonies.BiomeResourceDef>
+		<defName>DankPyon_AncientForest</defName>
+		<label>Ancient Forest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>1.3</li> <!-- Logging -->
+			<li>.8</li> <!-- Mining -->
+			<li>1.1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	
+	<FactionColonies.BiomeResourceDef>
+		<defName>DankPyon_DarkForest</defName>
+		<label>Dark Forest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.3</li> <!-- Food -->
+			<li>.9</li> <!-- Weapons -->
+			<li>.9</li> <!-- Apparel -->
+			<li>.8</li> <!-- Animals -->
+			<li>1.6</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.2</li> <!-- Research -->
+			<li>.75</li> <!-- Power -->
+			<li>1.2</li> <!-- Medicine -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+		<!--End Medieval Overhaul Biomes-->
+	
+		<!--Lightless Empyrean Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>pphhyy_LightlessEmpyrean_Biome</defName>
+		<label>lightless empyrean</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.7</li> <!-- Food -->
+			<li>.8</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>.8</li> <!-- Animals -->
+			<li>1.2</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>.7</li> <!-- Power -->
+			<li>1.2</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Lightless Empyrean Biome-->
+
+	<!--Biomes! Bunnies Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>Bunnies_Carrotopia</defName>
+		<label>carrotopia</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.2</li> <!-- Food -->
+			<li>.7</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.2</li> <!-- Animals -->
+			<li>0.8</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Biomes! Bunnies Biome-->
+
+	<!--Rimhammer the End Times Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>RH_TET_ChaosWastes</defName>
+		<label>chaos wastes</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.6</li> <!-- Food -->
+			<li>0.7</li> <!-- Weapons -->
+			<li>0.6</li> <!-- Apparel -->
+			<li>1.</li> <!-- Animals -->
+			<li>0.8</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>0.5</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Rimhammer the End Times Biomes-->
+
+	<!--Rimhammer the End Times Beastmen Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>RH_TET_Beastmen_OldGrowthForest</defName>
+		<label>old growth forest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.9</li> <!-- Food -->
+			<li>0.7</li> <!-- Weapons -->
+			<li>0.7</li> <!-- Apparel -->
+			<li>1.1</li> <!-- Animals -->
+			<li>2</li> <!-- Logging -->
+			<li>0.8</li> <!-- Mining -->
+			<li>1.5</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Rimhammer the End Times Beastmen Biome-->
+
+	<!--Sunset Technology 3 Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>SCMBiome_cy</defName>
+		<label>SCM Otherworld</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>0.6</li> <!-- Food -->
+			<li>0.8</li> <!-- Weapons -->
+			<li>0.8</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>0.8</li> <!-- Logging -->
+			<li>1.8</li> <!-- Mining -->
+			<li>2</li> <!-- Research -->
+			<li>2</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Sunset Technology 3 Biome-->
+
+	<!--Edo Themed Expansion Biome-->
+	<FactionColonies.BiomeResourceDef>
+		<defName>HSBambooForest</defName>
+		<label>bamboo forest</label>
+		<canSettle>true</canSettle>
+		<BaseProductionAdditive> <!-- 0 is default -->
+			<li>1.5</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1.5</li> <!-- Animals -->
+			<li>1.75</li> <!-- Logging -->
+			<li>0.75</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionAdditive>
+		<BaseProductionMultiplicative> <!-- li is default -->
+			<li>1</li> <!-- Food -->
+			<li>1</li> <!-- Weapons -->
+			<li>1</li> <!-- Apparel -->
+			<li>1</li> <!-- Animals -->
+			<li>1</li> <!-- Logging -->
+			<li>1</li> <!-- Mining -->
+			<li>1</li> <!-- Research -->
+			<li>1</li> <!-- Power -->
+			<li>1</li> <!-- Medicine -->
+			<li>0</li> <!-- Gravtech - Orbital only -->
+			<li>0</li> <!-- Chemfuel - Orbital only -->
+		</BaseProductionMultiplicative>
+	</FactionColonies.BiomeResourceDef>	
+	<!--End Edo Themed Expansion Biome-->
 </Defs>
